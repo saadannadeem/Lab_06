@@ -1,0 +1,92 @@
+body {
+  background-color: #ffffff; 
+  font-family: "Century Gothic", AppleGothic, sans-serif; /* Set once globally */
+}
+
+#v1 {
+  color: #2E9F9F; 
+}
+
+#v2 {
+  color: #ffffff; 
+}
+
+.header-container{
+background-color:#A2E8E8;
+color:#2E9F9F;
+text-align:right;
+margin:0 auto;
+font-family: "Century Gothic", AppleGothic, sans-serif;
+
+}
+
+#v4,#v6{
+color:#2E9F9F;
+font-family: "Century Gothic", AppleGothic, sans-serif;
+margin:0 auto;
+}
+
+#v5,#v7{
+color:#B26666;
+font-family: "Century Gothic", AppleGothic, sans-serif;
+margin:0 
+line-height:1.5;
+font-size:18px;
+}
+#v3{
+color:#0B7A7A;
+}
+.sidebar-friends{
+background-color:#20CBCB;
+}
+
+.red-text{
+color:#B26666;
+}
+
+.white-bold-text{
+color:#ffffff;
+font-weight:bold;
+}
+
+.journal-date,.journal-date{
+border-bottom: 3px dotted #0000CC; 
+
+}
+
+
+#I1,#I2{
+width:160px;
+height:auto;
+padding:5px;
+margin-left:15px;
+}
+
+
+.journal-card{
+background-color:#EEFAFA;
+border:3px solid #7CD1D1;
+margin-bottom:20px;
+padding:10px;
+display:flow-root;
+}
+
+.entries-container{
+width:70%;
+}
+.sidebar-friends{
+border:3px solid #0e8c8c;
+width:25%;
+padding:10px;
+align-self: flex-start;
+}
+
+.main-content{
+display:flex;
+justify-content:space-between;
+
+}
+
+#I1,#I2{
+float:right;
+}

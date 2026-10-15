@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body{
+background-color: #D6D6D6;  
+}
+
+h1{
+color:Red;
+text-align:center;
+}
+
+td:first-child{
+font-weight:bold;
+}
+
+table{
+background-color:#d2e6f7;
+border-collapse:collapse;
+margin: 0 auto;
+}
+
+td{
+border:1px solid #000000;
+padding:8px;
+}
+</style>
+
+<body>
+<h1>Continental Hotel Reservation Form</h1><br>
+<table>
+
+<tr>
+<td>Name</td>
+<td><input type="text" placeholder="Enter your name" id="name"></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" placeholder="Enter your email" id="email"></td>
+</tr>
+
+<tr>
+<td>Mobile No</td>
+<td><input type="tel" placeholder="Enter your cell number" id="phone"></td>
+</tr>
+
+<tr>
+<td>Arrival Time</td>
+<td><input type="time" placeholder="Enter your arrival time" id="arrival">  </td>
+</tr>
+
+<tr>
+<td>Departure</td>
+<td><input type="date" id="departure">
+<input type="time" id="departure"></td>
+</tr>
+
+
+<tr>
+<td>Room Type</td>
+<td><input type="radio" id="room type"><label>Single</label>
+<input type="radio" id="room type"><label>Double</label><br>
+<input type="radio" id="room type"><label>Presidential Suite</label></td>
+</tr>
+
+
+<tr>
+<td>Preferences</td>
+<td><input type="checkbox" id="preferences"><label>Non-Smoking</label><br><input type="checkbox" id="preferences"><label>Internet</label><br>
+<input type="checkbox" id="preferences"><label>Firm Mattress</label></td>
+</tr>
+
+
+<tr>
+<td>Mode of Payment</td>
+<td><input type="checkbox" id="Payment"><label>Cash</label>
+<input type="checkbox" id="Payment"><label>Check</label><br>
+<input type="checkbox" id="Payment"><label>Credit Card</label>
+<input type="button" value="Select Card"></td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center;"><input type="button" value="Send Data"></td>
+</tr>
+
+
+
+
+
+</table>
+</body>
+</html>
